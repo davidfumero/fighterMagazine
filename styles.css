@@ -14,7 +14,6 @@ body {
 }
 
 .row-one,
-.row-two,
 .row-three,
 .row-four {
   display: flex;
@@ -88,27 +87,40 @@ button {
 
 /* Row two */
 .row-two {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #E5E7EB;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.info-main-text {
+  margin: 32px 0 32px 0;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
 }
 
 .img-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .info-image {
-  border: #3882F6;
+  border-color: #3882F6;
+  border-style: solid;
+  border-radius: 10px;
   height: 150px;
   width: 150px;
+  margin: 4px 16px;
+}
+
+.info-text {
+  margin: 4px 16px;
 }
 
 /* Footer */
