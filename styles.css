@@ -14,8 +14,7 @@ body {
 }
 
 .row-one,
-.row-three,
-.row-four {
+.row-three {
   display: flex;
   justify-content: center;
   align-items: center ;
@@ -98,7 +97,7 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 .img-container {
@@ -115,7 +114,7 @@ button {
   border-radius: 10px;
   height: 150px;
   width: 150px;
-  margin: 4px 16px;
+  margin: 16px 16px;
 }
 
 .info-text {
@@ -124,7 +123,6 @@ button {
 
 /* Row three */
 .row-three {
-  display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
   padding: 80px 200px 80px 200px;
@@ -142,6 +140,35 @@ button {
 .author {
   font-weight: 900;
   margin: 0px;
+}
+
+/* Row four */
+.modal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 10px;
+  margin: 80px 200px 80px 200px;
+  padding: 32px;
+}
+
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #E5E7EB;
+  gap: 4px;
+}
+
+.modal .text,
+.modal h3{
+  margin: 0px;
+}
+
+.modal .button {
+  color: #E5E7EB;
+  border: 2px solid #E5E7EB;;
 }
 
 /* Footer */
