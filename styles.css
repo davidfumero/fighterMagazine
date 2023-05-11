@@ -1,0 +1,5 @@
+.header,
+.footer {
+  display: flex;
+  background-color: #1F2987;
+}
