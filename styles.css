@@ -1,5 +1,30 @@
 .header,
 .footer {
   display: flex;
-  background-color: #1F2987;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.footer {
+  justify-content: center;
 }
