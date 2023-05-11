@@ -88,7 +88,6 @@ button {
 /* Row two */
 .row-two {
   text-align: center;
-  background-color: lightgray;
 }
 
 .info-main-text {
@@ -121,6 +120,28 @@ button {
 
 .info-text {
   margin: 4px 16px;
+}
+
+/* Row three */
+.row-three {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 80px 200px 80px 200px;
+  align-items: flex-end;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  margin: 0px;
+}
+
+.author {
+  font-weight: 900;
+  margin: 0px;
 }
 
 /* Footer */
