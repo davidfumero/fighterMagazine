@@ -26,6 +26,12 @@ body {
   padding: 0px 200px;
 }
 
+.header img {
+  height: auto;
+  width: 50px;
+  padding: 8px;
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -82,6 +88,7 @@ button {
 .row-one img {
   height: auto;
   width: 500px;
+  transform: scaleX(-1);
 }
 
 /* Row two */
@@ -109,15 +116,16 @@ button {
 }
 
 .info-image {
-  border-color: #3882F6;
+  border-color: #1F2937;
   border-style: solid;
   border-radius: 10px;
-  height: 150px;
-  width: 150px;
+  height: 155px;
+  width: 225px;
   margin: 16px 16px;
 }
 
 .info-text {
+  font-weight: 900;
   margin: 4px 16px;
 }
 
